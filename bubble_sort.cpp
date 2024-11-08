@@ -5,7 +5,7 @@ struct No {
     No* proximo;
 };
 
-// Função para adicionar um novo nó ao final da lista
+// Função para adicionar um novo nó ao fim da lista
 void adicionar(No** cabecaLista, int novoDado) {
     No* novoNo = new No();
     novoNo->dado = novoDado;
